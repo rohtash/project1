@@ -6,7 +6,7 @@ import io.federecio.dropwizard.junitrunner.DropwizardTestConfig;
 
 import org.junit.runner.RunWith;
 
-import com.tesco.swagger.app.PlatformApplication;
+import com.platform.swagger.app.PlatformApplication;
 
 @RunWith(DropwizardJunitRunner.class)
 @DropwizardTestConfig(applicationClass = PlatformApplication.class, yamlFile = "/test-simple-with-path.yaml")

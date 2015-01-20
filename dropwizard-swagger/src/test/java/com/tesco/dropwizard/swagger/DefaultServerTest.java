@@ -3,8 +3,10 @@ package com.tesco.dropwizard.swagger;
 
 import io.federecio.dropwizard.junitrunner.DropwizardJunitRunner;
 import io.federecio.dropwizard.junitrunner.DropwizardTestConfig;
+
 import org.junit.runner.RunWith;
-import com.tesco.swagger.app.PlatformApplication;
+
+import com.platform.swagger.app.PlatformApplication;
 
 
 @RunWith(DropwizardJunitRunner.class)
